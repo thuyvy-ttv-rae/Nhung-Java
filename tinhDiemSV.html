@@ -14,6 +14,7 @@
         let tongDiem = (parseInt(diemVatLy) + parseInt(diemHoaHoc) + parseInt(diemSinhHoc));
         document.write("Tổng điểm các môn là: " + tongDiem);
         let diemTB = tongDiem / 3;
+        diemTB = diemTB.toFixed(2);
         document.write("<br>");
         document.write("Điểm trung bình môn của sinh viên là: " + diemTB);
     </script>
