@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let soTienVay = prompt("Hãy nhập số tiền: ");
+        soTienVay = parseInt(soTienVay);
+        let laiSuat = prompt("Hãy nhập lãi suất ngân hàng trong một năm: ");
+        laiSuat = parseInt(laiSuat);
+        let soNam = prompt("Hãy nhập số năm: ");
+        soNam = parseInt(soNam);
+        let soTienLai = (soTienVay * (laiSuat * soNam / 100));
+        let soTienPhaiTra = soTienLai + soTienVay;
+        alert("Số tiền phải trả sau " + soNam + " là " + soTienPhaiTra);
+    </script>
+</body>
+
+</html>
